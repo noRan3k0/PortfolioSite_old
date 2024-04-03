@@ -15,10 +15,11 @@ body {
 
 /* Header styles */
 header {
+    /*display: inline-grid;*/
     background-color: #333;
     color: #fff;
     padding: 20px;
-    text-align: center;
+    text-align: left;
 }
 
 /* Footer styles */
@@ -32,8 +33,14 @@ footer {
     width: 100%;
 }
 
+.tag {
+    padding: 1rem 2rem;
+    border-bottom: 3px solid #000;
+    background: #f4f4f4;
+}
+
 /* Introduction styles */
-#introduction {
+#introduction,#main {
     background-color: #fff;
     padding: 20px;
     margin: 20px;
