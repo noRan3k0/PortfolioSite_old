@@ -1,0 +1,45 @@
+/* Reset CSS to remove default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f7f7f7;
+    margin: 20px; /* Adjust margin as needed */
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Introduction styles */
+#introduction {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+}
+
+/* Paragraph styles */
+p {
+    margin-bottom: 15px; /* Adjust margin as needed */
+}
