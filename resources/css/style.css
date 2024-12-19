@@ -1,0 +1,87 @@
+/* カスタムスタイル */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* ヘッダー */
+.header {
+    /* hero sectionの色に変更*/
+    /*background-color: #ffd9b5;*/
+    background-color: #4F200D;
+    padding: 0;
+    margin: 0;
+
+    /*
+    background-image: url("..\\img\\quineで形作られたのらねこ-4.jpg");
+    background-repeat:  no-repeat;
+    padding-right: 1rem;
+    background-size: contain;
+    */
+}
+
+.navigation a {
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+}
+
+.navigation a:hover {
+    /*background: #ff870e;*/
+    background: #FF8400;
+}
+
+/* ヒーローセクション */
+.hero-section {
+    /* 画像を挿入し、その上に文字が来るようにしたい*/
+    /*background-color: #E5B83B;*/
+    background-color: #FFD93D;
+    text-align: center;
+    color: white;
+    padding: 4rem 1rem;
+
+    background-image: url("..\\img\\quineで形作られたのらねこ-4.jpg");
+    background-repeat:  no-repeat;
+    background-position:center center;
+    background-size: contain;
+}
+
+.hero-section img {
+    width: 100%;
+} 
+
+/* カスタムカード */
+.custom-card {
+    /*background-color: #FDF2C2;*/
+    background-color: #F6F1E9;
+    border: none;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.custom-card img {
+    height: 150px;
+    object-position: bottom;
+    object-fit: cover;
+}
+
+/* Footer */
+.footer {
+    /*background-color: #f8f9fa;*/
+    background-color: #4F200D;
+    color: white;
+    padding: 2rem 0;
+}
+
+.sns-btn {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.sns-btn li {
+    width: 30px;
+    list-style: none;
+}
+
+.sns-btn img {
+    width: 100%;
+} 
